@@ -19,12 +19,12 @@ export default function App() {
         <Switch>
 
           <Route path="/products">
-            <Default>
+            <Default title="Products">
               <Products />
             </Default>
           </Route>
           <Route path="/">
-            <Default>
+            <Default title="Dashboard">
               <Dashboard />
             </Default>
           </Route>

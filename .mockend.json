@@ -1,0 +1,13 @@
+{
+    "products":{
+        "product_name":"string",
+        "Product_description":"string",
+        "is_active":"boolean",
+        "price":"string",
+        "offer_price":"string",
+        "offer_start_at":"date",
+        "offer_end_at":"date",
+        "created_at":"date",
+        "updated_at":"date"
+    }
+}

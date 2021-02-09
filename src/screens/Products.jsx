@@ -1,8 +1,10 @@
 import * as React from 'react';
+import { useEffect } from "react";
 import { DataGrid } from '@material-ui/data-grid';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
+
 
 const columns = [
     { field: 'id', headerName: 'ID', width: 70 },
@@ -38,6 +40,17 @@ const rows = [
 ];
 
 export default function Products() {
+    useEffect(() => {
+        getProducts();
+        return () => {
+            
+        }
+    }, []);
+
+    const getProducts = ()=>{
+
+    }
+
     return (
         <Card>
             <CardContent>
