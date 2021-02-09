@@ -1,5 +1,5 @@
 {
-    "products":{
+    "Product":{
         "product_name":"string",
         "Product_description":"string",
         "is_active":"boolean",
