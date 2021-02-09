@@ -1,8 +1,10 @@
-import axios from axios;
+import axios from 'axios';
 
-const baseUrl = "";
+const baseUrl = "https://mockend.com/factedu/ui-app/";
 
-const getAllProducts = ()=>{
-    return axios.get(baseUrl);
+export const getAllProducts = ()=>{
+    return axios.get(baseUrl+'products');
 }
+
+
 
