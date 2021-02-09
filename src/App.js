@@ -18,14 +18,16 @@ export default function App() {
       <div>
         <Switch>
 
-          <Route path="/products">
-            <Default title="Products">
-              <Products />
-            </Default>
-          </Route>
-          <Route path="/">
+          
+          <Route path="/dashboard">
             <Default title="Dashboard">
               <Dashboard />
+            </Default>
+          </Route>
+
+          <Route path="/">
+            <Default title="Products">
+              <Products />
             </Default>
           </Route>
 

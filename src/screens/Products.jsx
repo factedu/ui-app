@@ -13,6 +13,8 @@ const columns = [
     { field: 'Product_description', headerName: 'Description', width: 130 },
     { field: 'price', headerName: 'Price', width: 130 },
     { field: 'offer_price', headerName: 'Offer Price', width: 130 },
+    { field: 'offer_start_at', headerName: 'Offer Start Time', width: 180 },
+    { field: 'offer_end_at', headerName: 'Offer End Time', width: 180 },
     // {
     //     field: 'price',
     //     headerName: 'Price',
